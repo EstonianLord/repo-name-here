@@ -14,28 +14,82 @@
     .contain{
       overflow: hidden;
       position: relative;
+      width: 320px;
+      height: 480px;
+      margin-top: 20px; /*not perma*/
+      margin-left: 20px; /*not perma*/
     }
-    .bg1, .tallink, .bg2, .sk1, .sk2, .puh1, .puh2, .bron, .hind{
+    .bg1, .tallink, .bg2, .sk1, .sk2, .sk, .puh1, .puh2, .bron, .hind{
       position: absolute;
+    }
+    .tallink{
+      top: -480px;
+      animation: tallink 15s infinite;
+    }
+    @keyframes tallink {
+      0% {top: -480px;}
+      20% {top: 0px;}
+      80% {top: 0px;}
+      100% {top: -480px;}
+    }
+    .sk1{
+      top:480px;
+      animation: sk1 15s infinite;
+    }
+    @keyframes sk1 {
+      0% {top: 480px; left:0px; opacity: 1;}
+      20% {top: 0px;}
+      30% {top: 0px;}
+      40% {top: -180px;}
+      60% {top: -180px; left:0px; opacity: 1;}
+      65% {top: -180px; left: 100px; opacity: 0;}
+      100% {top: 480px; opacity: 0;}
+    }
+    .sk2{
+      bottom:480px;
+      animation: sk2 15s infinite;
+    }
+    @keyframes sk2 {
+      0% {bottom: -480px; left:0px; opacity: 1;}
+      5% {bottom: -480px;}
+      25% {bottom: 0px;}
+      32% {bottom: 0px;}
+      42% {bottom: 180px;}
+      60% {bottom: 180px; left:0px; opacity: 1;}
+      65% {bottom: 180px; left: 100px; opacity: 0;}
+      100% {bottom: -480px; opacity: 0;}
+    }
+    .bg2{
+      opacity: 0;
+      animation: bg2 15s infinite;
+    }
+    @keyframes bg2 {
+      0% {opacity: 0;}
+      35% {opacity: 0;}
+      40% {opacity: 1;}
+      95% {opacity: 1;}
+      100% {opacity: 0;}
     }
   </style>
 </head>
 <body>
   <div class="contain">
     <img src="bg1.jpg" alt="" class="bg1">
-    <img src="tallink.png" alt="" class="tallink"> <!--10-90-->
 
     <img src="bg2.jpg" alt="" class="bg2">
 
-    <img src="sk1.png" alt="" class="sk1">
-    <img src="sk2.png" alt="" class="sk2">
+    <img src="sk1.png" alt="" class="sk1" style="opacity:1;">
+    <img src="sk2.png" alt="" class="sk2" style="opacity:1;">
+    <img src="sk.png" alt="" class="sk" style="opacity:0;">
 
-    <img src="puh1.png" alt="" class="puh1">
-    <img src="puh2.png" alt="" class="puh2">
+    <img src="puh1.png" alt="" class="puh1" style="opacity:0;">
+    <img src="puh2.png" alt="" class="puh2" style="opacity:0;">
 
-    <img src="bron.png" alt="" class="bron">
+    <img src="bron.png" alt="" class="bron" style="opacity:0;">
 
-    <img src="hind.png" alt="" class="hind">
+    <img src="hind.png" alt="" class="hind" style="opacity:0;">
+
+    <img src="tallink.png" alt="" class="tallink" style="opacity:1;"> <!--10-90-->
   </div>
 </body>
 </html>
