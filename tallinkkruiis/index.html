@@ -41,8 +41,8 @@
       20% {top: 0px;}
       30% {top: 0px;}
       40% {top: -180px;}
-      60% {top: -180px; left:0px; opacity: 1;}
-      70% {top: -180px; left: 200px; opacity: 0;}
+      60% {top: -180px; left: 0px; opacity: 1;}
+      70% {top: -180px; left: 250px; opacity: 0;}
       100% {top: 480px; opacity: 0;}
     }
     .sk2{
@@ -55,8 +55,8 @@
       25% {bottom: 0px;}
       30% {bottom: 0px;}
       40% {bottom: 180px;}
-      60% {bottom: 180px; left:0px; opacity: 1;}
-      70% {bottom: 180px; left: 200px; opacity: 0;}
+      60% {bottom: 180px; left: 0px; opacity: 1;}
+      70% {bottom: 180px; left: 250px; opacity: 0;}
       100% {bottom: -480px; opacity: 0;}
     }
     .bg2{
@@ -79,7 +79,7 @@
       32% {top: 200px; opacity: 1;}
       40% {top: 0px; opacity: 1;}
       60% {top:0px; left:0px; opacity: 1;}
-      70% {top: 0px; left: 200px; opacity: 0;}
+      70% {top: 0px; left: 250px; opacity: 0;}
       95% {opacity: 0;}
       100% {opacity: 0;}
     }
@@ -92,7 +92,18 @@
       32% {top: 200px; opacity: 1;}
       40% {top: 0px; opacity: 1;}
       90% {top: 0px; opacity: 1}
-      100% {top: 100px; opacity: 0}
+      100% {top: 200px; opacity: 0}
+    }
+    .hind{
+      opacity: 0;
+      animation: hind 15s infinite;
+    }
+    @keyframes hind {
+      0% {top: 0px; left: -250px; opacity: 0;}
+      60% {top: 0px; left: -250px; opacity: 0;}
+      70% {top: 0px; left: 0px; opacity: 1;}
+      90% {top: 0px; left: 0px; opacity: 1;}
+      100% {top: 200px; left: 0px; opacity: 0;}
     }
   </style>
 </head>
