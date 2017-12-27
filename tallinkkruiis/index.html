@@ -29,18 +29,18 @@
       position: absolute;
     }
     .tallink{
-      top: -10%;
-      animation: tallink 14s 2;
+      top: 0%;
+      animation: tallink 29s;
     }
     @keyframes tallink {
-      0% {top: -10%; opacity: 0;}
+      0% {top: -20%; opacity: 0;}
       10% {top: 0px; opacity: 1;}
       90% {top: 0px; opacity: 1;}
-      100% {top: -10%; opacity: 0;}
+      100% {top: 0%; opacity: 1;}
     }
     .sk1{
       top:480px;
-      animation: sk1 14s 2;
+      animation: sk1 29s;
     }
     @keyframes sk1 {
       0% {top: 100%; left:0px; opacity: 1;}
@@ -53,7 +53,7 @@
     }
     .sk2{
       bottom:480px;
-      animation: sk2 14s 2;
+      animation: sk2 29s ;
     }
     @keyframes sk2 {
       0% {bottom: -100%; left:0px; opacity: 1;}
@@ -66,19 +66,19 @@
       100% {bottom: -100%; opacity: 0;}
     }
     .bg2{
-      opacity: 0;
-      animation: bg2 14s 2;
+      opacity: 1;
+      animation: bg2 29s ;
     }
     @keyframes bg2 {
       0% {opacity: 0;}
       35% {opacity: 0;}
       40% {opacity: 1;}
       95% {opacity: 1;}
-      100% {opacity: 0;}
+      100% {opacity: 1;}
     }
     .puh{
       top: 480px;
-      animation: puh 14s 2;
+      animation: puh 29s ;
     }
     @keyframes puh {
       0% {opacity: 0;}
@@ -90,26 +90,29 @@
       100% {opacity: 0;}
     }
     .bron{
-      opacity: 0;
-      animation: bron 14s 2;
+
+      opacity: 1;
+      animation: bron 29s ;
     }
     @keyframes bron {
       0% {top: 40%;}
       32% {top: 40%; opacity: 1;}
       40% {top: 0px; opacity: 1;}
       90% {top: 0px; opacity: 1}
-      100% {top: 40%; opacity: 0}
+      100% {top: 0%; opacity: 1}
     }
     .hind{
-      opacity: 0;
-      animation: hind 14s 2;
+      left: 0px;
+      top: 0px;
+      opacity: 1;
+      animation: hind 29s ;
     }
     @keyframes hind {
-      0% {top: 0px; left: -250px; opacity: 0;}
+      0% {top: 0px; left: 0px; opacity: 0;}
       60% {top: 0px; left: -250px; opacity: 0;}
       70% {top: 0px; left: 0px; opacity: 1;}
       90% {top: 0px; left: 0px; opacity: 1;}
-      100% {top: 40%; left: 0px; opacity: 0;}
+      100% {top: 0px; left: 0px; opacity: 1;}
     }
   </style>
 </head>
@@ -119,8 +122,8 @@
 
     <img src="bg2.jpg" alt="" class="bg2">
 
-    <img src="sk1.png" alt="" class="sk1" style="opacity:1;">
-    <img src="sk2.png" alt="" class="sk2" style="opacity:1;">
+    <img src="sk1.png" alt="" class="sk1" style="opacity:0;">
+    <img src="sk2.png" alt="" class="sk2" style="opacity:0;">
     <img src="sk.png" alt="" class="sk" style="opacity:0;">
 
     <img src="puh1.png" alt="" class="puh1" style="opacity:0;">
@@ -129,7 +132,7 @@
 
     <img src="bron.png" alt="" class="bron">
 
-    <img src="hind.png" alt="" class="hind" style="opacity:0;">
+    <img src="hind.png" alt="" class="hind">
 
     <img src="tallink.png" alt="" class="tallink" style="opacity:1;"> <!--10-90-->
   </div>
