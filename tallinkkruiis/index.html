@@ -19,7 +19,7 @@
       margin-top: 20px; /*not perma*/
       margin-left: 20px; /*not perma*/
     }
-    .bg1, .tallink, .bg2, .sk1, .sk2, .sk, .puh1, .puh2, .bron, .hind{
+    .bg1, .tallink, .bg2, .sk1, .sk2, .sk, .puh1, .puh2, .puh, .bron, .hind{
       position: absolute;
     }
     .tallink{
@@ -27,10 +27,10 @@
       animation: tallink 15s infinite;
     }
     @keyframes tallink {
-      0% {top: -480px;}
-      20% {top: 0px;}
-      80% {top: 0px;}
-      100% {top: -480px;}
+      0% {top: -100px; opacity: 0;}
+      10% {top: 0px; opacity: 1;}
+      90% {top: 0px; opacity: 1;}
+      100% {top: -100px; opacity: 0;}
     }
     .sk1{
       top:480px;
@@ -42,7 +42,7 @@
       30% {top: 0px;}
       40% {top: -180px;}
       60% {top: -180px; left:0px; opacity: 1;}
-      65% {top: -180px; left: 100px; opacity: 0;}
+      70% {top: -180px; left: 200px; opacity: 0;}
       100% {top: 480px; opacity: 0;}
     }
     .sk2{
@@ -53,10 +53,10 @@
       0% {bottom: -480px; left:0px; opacity: 1;}
       5% {bottom: -480px;}
       25% {bottom: 0px;}
-      32% {bottom: 0px;}
-      42% {bottom: 180px;}
+      30% {bottom: 0px;}
+      40% {bottom: 180px;}
       60% {bottom: 180px; left:0px; opacity: 1;}
-      65% {bottom: 180px; left: 100px; opacity: 0;}
+      70% {bottom: 180px; left: 200px; opacity: 0;}
       100% {bottom: -480px; opacity: 0;}
     }
     .bg2{
@@ -69,6 +69,30 @@
       40% {opacity: 1;}
       95% {opacity: 1;}
       100% {opacity: 0;}
+    }
+    .puh{
+      top: 480px;
+      animation: puh 15s infinite;
+    }
+    @keyframes puh {
+      0% {opacity: 0;}
+      32% {top: 200px; opacity: 1;}
+      40% {top: 0px; opacity: 1;}
+      60% {top:0px; left:0px; opacity: 1;}
+      70% {top: 0px; left: 200px; opacity: 0;}
+      95% {opacity: 0;}
+      100% {opacity: 0;}
+    }
+    .bron{
+      opacity: 0;
+      animation: bron 15s infinite;
+    }
+    @keyframes bron {
+      0% {top: 200px;}
+      32% {top: 200px; opacity: 1;}
+      40% {top: 0px; opacity: 1;}
+      90% {top: 0px; opacity: 1}
+      100% {top: 100px; opacity: 0}
     }
   </style>
 </head>
@@ -84,8 +108,9 @@
 
     <img src="puh1.png" alt="" class="puh1" style="opacity:0;">
     <img src="puh2.png" alt="" class="puh2" style="opacity:0;">
+    <img src="puh.png" alt="" class="puh">
 
-    <img src="bron.png" alt="" class="bron" style="opacity:0;">
+    <img src="bron.png" alt="" class="bron">
 
     <img src="hind.png" alt="" class="hind" style="opacity:0;">
 
