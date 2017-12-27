@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tallinkv</title>
+  <title>Tallink</title>
   <style>
 
     *{
       margin: 0px;
       padding: 0px;
     }
-    body, html{
+    html, body{
       width: 100%;
       height: 100%;
     }
@@ -23,114 +23,128 @@
       overflow: hidden;
       position: relative;
       width: 100%;
-      height: auto;
+      height: 100%;
     }
-    .tallink, .bg1, .bg2, .sk1, .sk2, .sk, .puh1, .puh2, .puh, .bron, .hind{
+    .bg1, .bg2, .tallink, .sk1, .sk2, .sk, .puh1, .puh2, .puh, .bron, .hind{
       position: absolute;
     }
     .tallink{
-      top: -480px;
-      animation: tallink 15s infinite;
+      top: 0%;
+      animation: tallink 14s 2;
+      opacity: 1;
     }
     @keyframes tallink {
-      0% {top: -10%; opacity: 0;}
-      10% {top: 0px; opacity: 1;}
-      90% {top: 0px; opacity: 1;}
-      100% {top: -10%; opacity: 0;}
+      0% {top: 0%; opacity: 1;}
+      10% {top: -20%; opacity: 1;}
+  	  20% {top: 0%; opacity:1;}
+      90% {top: 0%; opacity: 1;}
+      100% {top: 0%; opacity: 1;}
     }
     .sk1{
       top:480px;
-      animation: sk1 15s infinite;
+      animation: sk1 14s 2;
+      opacity: 0;
     }
     @keyframes sk1 {
       0% {top: 100%; left:0px; opacity: 1;}
       20% {top: 0px;}
       30% {top: 0px;}
-      40% {top: -35%;}
-      60% {top: -35%; left: 0px; opacity: 1;}
-      70% {top: -35%; left: 250px; opacity: 0;}
+      40% {top: -40%;}
+      60% {top: -40%; left: 0px; opacity: 1;}
+      70% {top: -40%; left: 60%; opacity: 0;}
       100% {top: 100%; opacity: 0;}
     }
     .sk2{
       bottom:480px;
-      animation: sk2 15s infinite;
+      animation: sk2 14s 2;
+      opacity: 0;
     }
     @keyframes sk2 {
       0% {bottom: -100%; left:0px; opacity: 1;}
       5% {bottom: -100%;}
       25% {bottom: 0px;}
       30% {bottom: 0px;}
-      40% {bottom: 35%;}
-      60% {bottom: 35%; left: 0px; opacity: 1;}
-      70% {bottom: 35%; left: 250px; opacity: 0;}
+      40% {bottom: 40%;}
+      60% {bottom: 40%; left: 0px; opacity: 1;}
+      70% {bottom: 40%; left: 60%; opacity: 0;}
       100% {bottom: -100%; opacity: 0;}
     }
-    .bg2{
+    .bg1{
+      animation: bg1 14s 2;
       opacity: 0;
-      animation: bg2 15s infinite;
+    }
+    @keyframes bg1 {
+      0%{opacity: 1;}
+      100%{opacity: 1;}
+    }
+    .bg2{
+      animation: bg2 14s 2;
+      opacity: 1;
     }
     @keyframes bg2 {
-      0% {opacity: 0;}
-      35% {opacity: 0;}
+      0% {opacity: 1;}
+      10% {opacity: 0;}
+      30% {opacity: 0;}
       40% {opacity: 1;}
       95% {opacity: 1;}
-      100% {opacity: 0;}
+      100% {opacity: 1;}
     }
     .puh{
       top: 480px;
-      animation: puh 15s infinite;
+      animation: puh 14s 2;
+      opacity: 0;
     }
     @keyframes puh {
       0% {opacity: 0;}
-      32% {top: 200px; opacity: 1;}
+      32% {top: 40%; opacity: 1;}
       40% {top: 0px; opacity: 1;}
       60% {top:0px; left:0px; opacity: 1;}
-      70% {top: 0px; left: 250px; opacity: 0;}
+      70% {top: 0px; left: 60%; opacity: 0;}
       95% {opacity: 0;}
       100% {opacity: 0;}
     }
     .bron{
-      opacity: 0;
-      animation: bron 15s infinite;
+      animation: bron 14s 2;
+      opacity: 1;
     }
     @keyframes bron {
-      0% {top: 200px;}
-      32% {top: 200px; opacity: 1;}
-      40% {top: 0px; opacity: 1;}
-      90% {top: 0px; opacity: 1}
-      100% {top: 200px; opacity: 0}
+      0% {top: 0%; opacity: 1;}
+      10% {top: 20%; opacity: 0;}
+  	  60% {top: 20%; opacity: 0;}
+      70% {top: 0%; opacity: 1;}
+      90% {top: 0%; opacity: 1;}
+      100% {top: 0%; opacity: 1;}
     }
     .hind{
-      opacity: 0;
-      animation: hind 15s infinite;
+      left: 0px;
+      top: 0px;
+      animation: hind 14s 2;
+      opacity: 1;
     }
     @keyframes hind {
-      0% {top: 0px; left: -250px; opacity: 0;}
-      60% {top: 0px; left: -250px; opacity: 0;}
-      70% {top: 0px; left: 0px; opacity: 1;}
+      0% {top: 0px; left: 0px; opacity: 1;}
+      10% {top: 0px; left: -60%; opacity: 0;}
+      60% {top: 0px; left: -60%; opacity: 0}
+      70% {top: 0px; left: 0%; opacity: 1;}
       90% {top: 0px; left: 0px; opacity: 1;}
-      100% {top: 200px; left: 0px; opacity: 0;}
+      100% {top: 0px; left: 0px; opacity: 1;}
     }
   </style>
 </head>
 <body>
   <div class="contain">
-
     <img src="bg1.jpg" alt="" class="bg1">
 
     <img src="bg2.jpg" alt="" class="bg2">
 
-    <img src="sk1.png" alt="" class="sk1" style="opacity:1;">
-    <img src="sk2.png" alt="" class="sk2" style="opacity:1;">
-    <img src="sk.png" alt="" class="sk" style="opacity:0;">
+    <img src="sk1.png" alt="" class="sk1">
+    <img src="sk2.png" alt="" class="sk2">
 
-    <img src="puh1.png" alt="" class="puh1" style="opacity:0;">
-    <img src="puh2.png" alt="" class="puh2" style="opacity:0;">
     <img src="puh.png" alt="" class="puh">
 
     <img src="bron.png" alt="" class="bron">
 
-    <img src="hind.png" alt="" class="hind" style="opacity:0;">
+    <img src="hind.png" alt="" class="hind">
 
     <img src="tallink.png" alt="" class="tallink" style="opacity:1;"> <!--10-90-->
   </div>

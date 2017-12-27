@@ -30,17 +30,20 @@
     }
     .tallink{
       top: 0%;
-      animation: tallink 29s;
+      animation: tallink 14s 2;
+      opacity: 1;
     }
     @keyframes tallink {
-      0% {top: -20%; opacity: 0;}
-      10% {top: 0px; opacity: 1;}
-      90% {top: 0px; opacity: 1;}
+      0% {top: 0%; opacity: 1;}
+      10% {top: -20%; opacity: 1;}
+  	  20% {top: 0%; opacity:1;}
+      90% {top: 0%; opacity: 1;}
       100% {top: 0%; opacity: 1;}
     }
     .sk1{
       top:480px;
-      animation: sk1 29s;
+      animation: sk1 14s 2;
+      opacity: 0;
     }
     @keyframes sk1 {
       0% {top: 100%; left:0px; opacity: 1;}
@@ -53,7 +56,8 @@
     }
     .sk2{
       bottom:480px;
-      animation: sk2 29s ;
+      animation: sk2 14s 2;
+      opacity: 0;
     }
     @keyframes sk2 {
       0% {bottom: -100%; left:0px; opacity: 1;}
@@ -65,20 +69,30 @@
       70% {bottom: 40%; left: 60%; opacity: 0;}
       100% {bottom: -100%; opacity: 0;}
     }
+    .bg1{
+      animation: bg1 14s 2;
+      opacity: 0;
+    }
+    @keyframes bg1 {
+      0%{opacity: 1;}
+      100%{opacity: 1;}
+    }
     .bg2{
+      animation: bg2 14s 2;
       opacity: 1;
-      animation: bg2 29s ;
     }
     @keyframes bg2 {
-      0% {opacity: 0;}
-      35% {opacity: 0;}
+      0% {opacity: 1;}
+      10% {opacity: 0;}
+      30% {opacity: 0;}
       40% {opacity: 1;}
       95% {opacity: 1;}
       100% {opacity: 1;}
     }
     .puh{
       top: 480px;
-      animation: puh 29s ;
+      animation: puh 14s 2;
+      opacity: 0;
     }
     @keyframes puh {
       0% {opacity: 0;}
@@ -90,27 +104,28 @@
       100% {opacity: 0;}
     }
     .bron{
-
+      animation: bron 14s 2;
       opacity: 1;
-      animation: bron 29s ;
     }
     @keyframes bron {
-      0% {top: 40%;}
-      32% {top: 40%; opacity: 1;}
-      40% {top: 0px; opacity: 1;}
-      90% {top: 0px; opacity: 1}
-      100% {top: 0%; opacity: 1}
+      0% {top: 0%; opacity: 1;}
+      10% {top: 20%; opacity: 0;}
+  	  60% {top: 20%; opacity: 0;}
+      70% {top: 0%; opacity: 1;}
+      90% {top: 0%; opacity: 1;}
+      100% {top: 0%; opacity: 1;}
     }
     .hind{
       left: 0px;
       top: 0px;
+      animation: hind 14s 2;
       opacity: 1;
-      animation: hind 29s ;
     }
     @keyframes hind {
-      0% {top: 0px; left: 0px; opacity: 0;}
-      60% {top: 0px; left: -250px; opacity: 0;}
-      70% {top: 0px; left: 0px; opacity: 1;}
+      0% {top: 0px; left: 0px; opacity: 1;}
+      10% {top: 0px; left: -60%; opacity: 0;}
+      60% {top: 0px; left: -60%; opacity: 0}
+      70% {top: 0px; left: 0%; opacity: 1;}
       90% {top: 0px; left: 0px; opacity: 1;}
       100% {top: 0px; left: 0px; opacity: 1;}
     }
@@ -122,12 +137,9 @@
 
     <img src="bg2.jpg" alt="" class="bg2">
 
-    <img src="sk1.png" alt="" class="sk1" style="opacity:0;">
-    <img src="sk2.png" alt="" class="sk2" style="opacity:0;">
-    <img src="sk.png" alt="" class="sk" style="opacity:0;">
+    <img src="sk1.png" alt="" class="sk1">
+    <img src="sk2.png" alt="" class="sk2">
 
-    <img src="puh1.png" alt="" class="puh1" style="opacity:0;">
-    <img src="puh2.png" alt="" class="puh2" style="opacity:0;">
     <img src="puh.png" alt="" class="puh">
 
     <img src="bron.png" alt="" class="bron">
