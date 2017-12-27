@@ -11,57 +11,63 @@
       margin: 0px;
       padding: 0px;
     }
+    html, body{
+      width: 100%;
+      height: 100%;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
     .contain{
       overflow: hidden;
       position: relative;
-      width: 320px;
-      height: 480px;
-      margin-top: 20px; /*not perma*/
-      margin-left: 20px; /*not perma*/
+      width: 100%;
+      height: 100%;
     }
-    .bg1, .tallink, .bg2, .sk1, .sk2, .sk, .puh1, .puh2, .puh, .bron, .hind{
+    .bg1, .bg2, .tallink, .sk1, .sk2, .sk, .puh1, .puh2, .puh, .bron, .hind{
       position: absolute;
     }
     .tallink{
-      top: -480px;
-      animation: tallink 15s infinite;
+      top: -10%;
+      animation: tallink 14s 2;
     }
     @keyframes tallink {
-      0% {top: -100px; opacity: 0;}
+      0% {top: -10%; opacity: 0;}
       10% {top: 0px; opacity: 1;}
       90% {top: 0px; opacity: 1;}
-      100% {top: -100px; opacity: 0;}
+      100% {top: -10%; opacity: 0;}
     }
     .sk1{
       top:480px;
-      animation: sk1 15s infinite;
+      animation: sk1 14s 2;
     }
     @keyframes sk1 {
-      0% {top: 480px; left:0px; opacity: 1;}
+      0% {top: 100%; left:0px; opacity: 1;}
       20% {top: 0px;}
       30% {top: 0px;}
-      40% {top: -180px;}
-      60% {top: -180px; left: 0px; opacity: 1;}
-      70% {top: -180px; left: 250px; opacity: 0;}
-      100% {top: 480px; opacity: 0;}
+      40% {top: -40%;}
+      60% {top: -40%; left: 0px; opacity: 1;}
+      70% {top: -40%; left: 60%; opacity: 0;}
+      100% {top: 100%; opacity: 0;}
     }
     .sk2{
       bottom:480px;
-      animation: sk2 15s infinite;
+      animation: sk2 14s 2;
     }
     @keyframes sk2 {
-      0% {bottom: -480px; left:0px; opacity: 1;}
-      5% {bottom: -480px;}
+      0% {bottom: -100%; left:0px; opacity: 1;}
+      5% {bottom: -100%;}
       25% {bottom: 0px;}
       30% {bottom: 0px;}
-      40% {bottom: 180px;}
-      60% {bottom: 180px; left: 0px; opacity: 1;}
-      70% {bottom: 180px; left: 250px; opacity: 0;}
-      100% {bottom: -480px; opacity: 0;}
+      40% {bottom: 40%;}
+      60% {bottom: 40%; left: 0px; opacity: 1;}
+      70% {bottom: 40%; left: 60%; opacity: 0;}
+      100% {bottom: -100%; opacity: 0;}
     }
     .bg2{
       opacity: 0;
-      animation: bg2 15s infinite;
+      animation: bg2 14s 2;
     }
     @keyframes bg2 {
       0% {opacity: 0;}
@@ -72,38 +78,38 @@
     }
     .puh{
       top: 480px;
-      animation: puh 15s infinite;
+      animation: puh 14s 2;
     }
     @keyframes puh {
       0% {opacity: 0;}
-      32% {top: 200px; opacity: 1;}
+      32% {top: 40%; opacity: 1;}
       40% {top: 0px; opacity: 1;}
       60% {top:0px; left:0px; opacity: 1;}
-      70% {top: 0px; left: 250px; opacity: 0;}
+      70% {top: 0px; left: 60%; opacity: 0;}
       95% {opacity: 0;}
       100% {opacity: 0;}
     }
     .bron{
       opacity: 0;
-      animation: bron 15s infinite;
+      animation: bron 14s 2;
     }
     @keyframes bron {
-      0% {top: 200px;}
-      32% {top: 200px; opacity: 1;}
+      0% {top: 40%;}
+      32% {top: 40%; opacity: 1;}
       40% {top: 0px; opacity: 1;}
       90% {top: 0px; opacity: 1}
-      100% {top: 200px; opacity: 0}
+      100% {top: 40%; opacity: 0}
     }
     .hind{
       opacity: 0;
-      animation: hind 15s infinite;
+      animation: hind 14s 2;
     }
     @keyframes hind {
       0% {top: 0px; left: -250px; opacity: 0;}
       60% {top: 0px; left: -250px; opacity: 0;}
       70% {top: 0px; left: 0px; opacity: 1;}
       90% {top: 0px; left: 0px; opacity: 1;}
-      100% {top: 200px; left: 0px; opacity: 0;}
+      100% {top: 40%; left: 0px; opacity: 0;}
     }
   </style>
 </head>
