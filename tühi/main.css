@@ -19,6 +19,8 @@ img{position: absolute;}
 }
 @keyframes bg1 {
 0%{top: 0%; opacity: 0;}
+10%{top: 0%; opacity: 0;}
+50%{top: 0%; opacity: 0;}
 50%{top: 0%; opacity: 0;}
 100%{top: 0%; opacity: 0;}
 }
@@ -59,7 +61,9 @@ img{position: absolute;}
 }
 @keyframes bg2 {
 0%{top: 0%; opacity: 0;}
+5%{top: 0%; opacity: 0;}
 50%{top: 0%; opacity: 0;}
+95%{top: 0%; opacity: 0;}
 100%{top: 0%; opacity: 0;}
 }
 .obj21{
