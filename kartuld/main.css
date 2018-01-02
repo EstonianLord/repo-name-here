@@ -34,7 +34,7 @@ img{
 0%{left: -20%; top: 0%; opacity: 0;}
 10%{left: 0%; top: 0%; opacity: 1;}
 40%{left: 0%; top: 0%; opacity: 1;}
-50%{left: -20%; top: 0%; opacity: 0;}
+50%{left: 0%; top: 20%; opacity: 0;}
 100%{top: 0%; opacity: 0;}
 }
 .obj12{
@@ -47,7 +47,7 @@ img{
 0%{left: -20%; top: 0%; opacity: 0;}
 10%{left: 0%; top: 0%; opacity: 1;}
 90%{left: 0%; top: 0%; opacity: 1;}
-100%{left: -20%; top: 0%; opacity: 0;}
+100%{left: 0%; top: 20%; opacity: 0;}
 }
 .obj13{
   top: 0%;
@@ -59,7 +59,7 @@ img{
 40%{left: -20%; top: 0%; opacity: 0;}
 50%{left: 0%; top: 0%; opacity: 1;}
 90%{left: 0%; top: 0%; opacity: 1;}
-100%{left: -20%; top: 0%; opacity: 0;}
+100%{left: 0%; top: 20%; opacity: 0;}
 }
 .obj14{
   top: 0%;
