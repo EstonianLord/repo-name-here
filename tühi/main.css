@@ -1,0 +1,101 @@
+*{margin: 0px; padding: 0px;}
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+img{position: absolute;}
+.contain{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.bg1{
+  top: 0%;
+  opacity: 0;
+  animation: bg1 15s infinite;
+}
+@keyframes bg1 {
+0%{top: 0%; opacity: 0;}
+50%{top: 0%; opacity: 0;}
+100%{top: 0%; opacity: 0;}
+}
+.obj11{
+  top: 0%;
+  opacity: 0;
+  animation: obj11 15s infinite;
+}
+@keyframes obj11 {
+0%{top: 0%; opacity: 0;}
+50%{top: 0%; opacity: 0;}
+100%{top: 0%; opacity: 0;}
+}
+.obj12{
+  top: 0%;
+  opacity: 0;
+  animation: obj12 15s infinite;
+}
+@keyframes obj12 {
+0%{top: 0%; opacity: 0;}
+50%{top: 0%; opacity: 0;}
+100%{top: 0%; opacity: 0;}
+}
+.obj13{
+  top: 0%;
+  opacity: 0;
+  animation: obj13 15s infinite;
+}
+@keyframes obj13 {
+0%{top: 0%; opacity: 0;}
+50%{top: 0%; opacity: 0;}
+100%{top: 0%; opacity: 0;}
+}
+.bg2{
+  top: 0%;
+  opacity: 0;
+  animation: bg2 15s infinite;
+}
+@keyframes bg2 {
+0%{top: 0%; opacity: 0;}
+50%{top: 0%; opacity: 0;}
+100%{top: 0%; opacity: 0;}
+}
+.obj21{
+  top: 0%;
+  opacity: 0;
+  animation: obj21 15s infinite;
+}
+@keyframes obj21 {
+0%{top: 0%; opacity: 0;}
+50%{top: 0%; opacity: 0;}
+100%{top: 0%; opacity: 0;}
+}
+.obj22{
+  top: 0%;
+  opacity: 0;
+  animation: obj22 15s infinite;
+}
+@keyframes obj22 {
+0%{top: 0%; opacity: 0;}
+50%{top: 0%; opacity: 0;}
+100%{top: 0%; opacity: 0;}
+}
+.obj23{
+  top: 0%;
+  opacity: 0;
+  animation: obj23 15s infinite;
+}
+@keyframes obj23 {
+0%{top: 0%; opacity: 0;}
+50%{top: 0%; opacity: 0;}
+100%{top: 0%; opacity: 0;}
+}
+/*0%{top: 0%; opacity: 0;transform: scale(0);}
+  5%{top: 0%; opacity: 1;transform: scale(1.05);}
+  6%{top: 0%; opacity: 1;transform: scale(0.95);}
+  7%{top: 0%; opacity: 1;transform: scale(1.02);}
+  8%{top: 0%; opacity: 1;transform: scale(0.98);}
+  9%{top: 0%; opacity: 1;transform: scale(1.05);}
+  10%{top: 0%; opacity: 1;transform: scale(1.05);}*/
