@@ -1,0 +1,143 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+header {
+  width: 1200px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; }
+  header ul {
+    list-style: none;
+    padding-right: 130px;
+    padding-top: 15px; }
+  header li {
+    float: right;
+    padding-right: 10px; }
+  header .logo {
+    position: absolute;
+    left: 0px;
+    top: 0px; }
+
+.navbar {
+  padding: 0px !important; }
+
+nav {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px; }
+  nav li {
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    border-bottom: 5px solid #41c8f4; }
+  nav li:hover {
+    border-bottom: 5px solid #a0e3f9; }
+  nav ul {
+    list-style: none;
+    padding: 0px; }
+  nav a {
+    color: #000;
+    font-size: 25.5px; }
+  nav .dropdown-item {
+    float: left; }
+
+#carouselExampleIndicators {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  #carouselExampleIndicators img {
+    width: 100%; }
+  #carouselExampleIndicators .b {
+    background-color: #41c8f4; }
+  #carouselExampleIndicators .o {
+    background-color: #f58221; }
+  #carouselExampleIndicators .y {
+    background-color: #ffd01e; }
+  #carouselExampleIndicators .carousel-indicators {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px; }
+  #carouselExampleIndicators .carousel-indicators li {
+    max-width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 3px solid #fff; }
+  #carouselExampleIndicators .carousel-indicators .active {
+    border: 3px solid #a0e3f9; }
+
+.products {
+  width: 1200px;
+  height: 360px;
+  border-bottom: 5px solid #a0e3f9;
+  margin-left: auto;
+  margin-right: auto; }
+  .products img {
+    width: 234px; }
+
+.card_holder {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 1200px; }
+  .card_holder .card-title {
+    text-align: left;
+    margin-top: 20px; }
+  .card_holder ol, .card_holder p {
+    text-align: left; }
+  .card_holder .bo {
+    background-color: #f58221;
+    border-bottom: 5px solid #ffd01e; }
+  .card_holder .by {
+    background-color: #ffd01e;
+    border-bottom: 5px solid #f58221; }
+
+.bottom {
+  width: 1200px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; }
+
+.col-md-6 {
+  margin-top: 30px; }
+  .col-md-6 .card {
+    width: 270px;
+    height: 100px;
+    float: left;
+    border: 0; }
+  .col-md-6 p {
+    font-size: 14px; }
+  .col-md-6 h3 {
+    margin-left: 20px; }
+  .col-md-6 form {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 30px; }
+  .col-md-6 .form-control {
+    border: 0px;
+    background-color: #c8c8c8;
+    border-radius: 0; }
+  .col-md-6 button {
+    width: 100px;
+    margin-left: 150px;
+    background-color: #c8c8c8;
+    border-radius: 0px;
+    border: 0; }
+
+.all {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 5px solid #a0e3f9;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  position: relative; }
+
+.logo2 {
+  position: absolute;
+  bottom: 0px;
+  left: 30px; }

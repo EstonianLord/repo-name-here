@@ -1,0 +1,177 @@
+$color_o: #f58221;
+$color_y: #ffd01e;
+$color_b: #41c8f4;
+$color_lb: #a0e3f9;
+$color_f: #c8c8c8;
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+header{
+  width: 1200px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  ul{
+    list-style: none;
+    padding-right: 130px;
+    padding-top: 15px;
+  }
+  li{
+    float: right;
+    padding-right: 10px;
+  }
+  .logo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+}
+.navbar{
+  padding: 0px !important;
+}
+nav{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  li{
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    border-bottom: 5px solid $color_b;
+  }
+  li:hover{
+    border-bottom: 5px solid $color_lb;
+  }
+  ul{
+    list-style: none;
+    padding: 0px;
+  }
+  a{
+    color: #000;
+    font-size: 25.5px;
+  }
+  .dropdown-item{
+    float: left;
+  }
+  padding: 0px;
+}
+#carouselExampleIndicators{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  img{
+    width: 100%;
+  }
+  .b{
+    background-color: $color_b;
+  }
+  .o{
+    background-color: $color_o;
+  }
+  .y{
+    background-color: $color_y;
+  }
+  .carousel-indicators{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .carousel-indicators li{
+    max-width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+  }
+  .carousel-indicators .active{
+    border: 3px solid $color-lb;
+  }
+}
+.products{
+  width: 1200px;
+  height: 360px;
+  border-bottom: 5px solid $color_lb;
+  margin-left: auto;
+  margin-right: auto;
+  img{
+    width: 234px;
+  }
+}
+.card_holder{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 1200px;
+  .card-title{
+    text-align: left;
+    margin-top: 20px;
+  }
+  ol, p{
+    text-align: left;
+  }
+  .bo{
+    background-color: $color_o;
+    border-bottom: 5px solid $color_y;
+  }
+  .by{
+    background-color: $color_y;
+    border-bottom: 5px solid $color_o;
+  }
+}
+.bottom{
+  width: 1200px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-md-6{
+  margin-top: 30px;
+  .card{
+    width: 270px;
+    height: 100px;
+    float: left;
+    border: 0;
+  }
+  p{
+    font-size: 14px;
+  }
+  h3{
+    margin-left: 20px;
+  }
+  form{
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .form-control{
+    border: 0px;
+    background-color: $color_f;
+    border-radius: 0;
+  }
+  button{
+    width: 100px;
+    margin-left: 150px;
+    background-color: $color_f;
+    border-radius: 0px;
+    border: 0;
+  }
+}
+.all{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 5px solid $color_lb;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.logo2{
+  position: absolute;
+bottom: 0px;
+left: 30px;
+}
