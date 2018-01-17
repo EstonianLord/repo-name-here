@@ -69,7 +69,8 @@ nav{
   margin-right: auto;
   z-index: 1;
   img{
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .b{
     background-color: $color_b;
@@ -98,9 +99,8 @@ nav{
     border: 3px solid $color-lb;
   }
 }
-.products{
-  width: 1200px;
-  height: 360px;
+.container{
+  width: 100%;
   border-bottom: 5px solid $color_lb;
   margin-left: auto;
   margin-right: auto;
@@ -109,9 +109,7 @@ nav{
     border: 0;
   }
   img{
-    cursor: pointer;
-    width: 234px;
-    border:0;
+    width: 100%;
   }
 }
 .card_holder{
@@ -173,15 +171,6 @@ nav{
     border: 0;
   }
 }
-.all{
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 5px solid $color_lb;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  position: relative;
-}
 .logo2{
   position: absolute;
 bottom: 0px;
@@ -192,4 +181,8 @@ left: 30px;
   right: 66px;
   top: 9px;
   z-index: 12;
+}
+.carousel-control-next-icon {
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+    color: black;
 }

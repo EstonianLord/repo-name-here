@@ -53,7 +53,8 @@ nav {
   margin-right: auto;
   z-index: 1; }
   #carouselExampleIndicators img {
-    width: 100%; }
+    margin-left: auto;
+    margin-right: auto; }
   #carouselExampleIndicators .b {
     background-color: #41c8f4; }
   #carouselExampleIndicators .o {
@@ -75,19 +76,16 @@ nav {
   #carouselExampleIndicators .carousel-indicators .active {
     border: 3px solid #a0e3f9; }
 
-.products {
-  width: 1200px;
-  height: 360px;
+.container {
+  width: 100%;
   border-bottom: 5px solid #a0e3f9;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px; }
-  .products .span2 {
+  .container .span2 {
     border: 0; }
-  .products img {
-    cursor: pointer;
-    width: 234px;
-    border: 0; }
+  .container img {
+    width: 100%; }
 
 .card_holder {
   margin-left: auto;
@@ -137,15 +135,6 @@ nav {
     background-color: #c8c8c8;
     border-radius: 0px;
     border: 0; }
-
-.all {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 5px solid #a0e3f9;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  position: relative; }
 
 .logo2 {
   position: absolute;
