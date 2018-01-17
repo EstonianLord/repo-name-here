@@ -82,6 +82,7 @@ nav {
   .products .span2 {
     border: 0; }
   .products img {
+    cursor: pointer;
     width: 234px;
     border: 0; }
 
