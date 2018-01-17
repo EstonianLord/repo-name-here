@@ -15,7 +15,7 @@ function add_one() {
     var n = document.getElementById("n");
     var number = n.innerHTML;
     number++;
-    n.innerHTML = number;
+    n.innerHTML =  number;
 }
 function add_color() {
     var n = document.getElementById("n");
