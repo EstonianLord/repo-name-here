@@ -8,8 +8,8 @@ function my_function() {
     }
 }
 function add_one() {
-  var n = document.getElementById("n");
-  var number = n.innerHTML;
-  number++;
-  n.innerHTML = number;
+    var n = document.getElementById("n");
+    var number = n.innerHTML;
+    number++;
+    n.innerHTML = number;
 }
