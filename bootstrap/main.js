@@ -1,8 +1,15 @@
+
 function my_function() {
-    var x = document.getElementById("sub_menu");
-    if (x.style.display === "none") {
-        x.style.display = "block";
+    var sub_menu = document.getElementById("sub_menu");
+    if (sub_menu.style.display === "none") {
+        sub_menu.style.display = "block";
     } else {
-        x.style.display = "none";
+        sub_menu.style.display = "none";
     }
+}
+function add_one() {
+  var n = document.getElementById("n");
+  var number = n.innerHTML;
+  number++;
+  n.innerHTML = number;
 }

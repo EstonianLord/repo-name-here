@@ -47,7 +47,8 @@ nav {
 #carouselExampleIndicators {
   width: 1200px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  z-index: 1; }
   #carouselExampleIndicators img {
     width: 100%; }
   #carouselExampleIndicators .b {
@@ -61,7 +62,8 @@ nav {
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
-    border-radius: 10px; }
+    border-radius: 10px;
+    z-index: 1; }
   #carouselExampleIndicators .carousel-indicators li {
     max-width: 20px;
     height: 20px;
@@ -75,9 +77,13 @@ nav {
   height: 360px;
   border-bottom: 5px solid #a0e3f9;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-top: 30px; }
+  .products .span2 {
+    border: 0; }
   .products img {
-    width: 234px; }
+    width: 234px;
+    border: 0; }
 
 .card_holder {
   margin-left: auto;
@@ -141,3 +147,9 @@ nav {
   position: absolute;
   bottom: 0px;
   left: 30px; }
+
+.n {
+  position: absolute;
+  right: 66px;
+  top: 9px;
+  z-index: 12; }

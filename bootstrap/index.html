@@ -25,73 +25,42 @@
     <img src="img/2_img.jpg" alt="" style="position: absolute;right: 0px;top: 0px;padding-top: 10px;">
   </header>
 
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <nav class="navbar navbar-toggleable-md navbar-light">
     <ul>
     <li class="nav-item dropdown">
       <a class="nav-link" href="#" id="navbarDropdownMenuLink" onclick="my_function()">
         VESI
       </a>
-
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link" href="#" id="navbarDropdownMenuLink" onclick="my_function()">
         KÜTE
       </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link" href="#" id="navbarDropdownMenuLink" onclick="my_function()">
         KANALISATSIOON
       </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link" href="#" id="navbarDropdownMenuLink" onclick="my_function()">
         VENTILATSIOON
       </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link" href="#" id="navbarDropdownMenuLink" onclick="my_function()">
         ELEKTER
       </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link" href="#" id="navbarDropdownMenuLink" onclick="my_function()">
         PAIGALDUS
       </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link" href="#" id="navbarDropdownMenuLink" onclick="my_function()">
         HOOLDUS
       </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
     </li>
       </ul>
   </nav>
@@ -123,37 +92,29 @@
     </a>
   </div>
 
-<div class="products">
+<div class="products" onclick="add_one()">
   <h4>Tootevalik</h4>
-<div class="card" style="text-align:center;display:inline-block;">
-  <img class="card-img-top" src="img/product_1.jpg" alt="">
-  <div class="card-block">
-    <h4 class="card-title">Vesi</h4>
-  </div>
+  <div class="row-fluid">
+<div class="span2 offset1" style="text-align:center;display:inline-block;">
+  <img src="img/product_1.jpg" alt="">
+    <h4>Vesi</h4>
 </div>
-<div class="card" style="text-align:center;display:inline-block;">
-  <img class="card-img-top" src="img/product_2.jpg" alt="">
-  <div class="card-block">
-    <h4 class="card-title">Küte</h4>
-  </div>
+<div class="span2" style="text-align:center;display:inline-block;">
+  <img src="img/product_2.jpg" alt="">
+    <h4>Küte</h4>
 </div>
-<div class="card" style="text-align:center;display:inline-block;">
-  <img class="card-img-top" src="img/product_3.jpg" alt="">
-  <div class="card-block">
-    <h4 class="card-title">Kanalisatsioon</h4>
-  </div>
+<div class="span2" style="text-align:center;display:inline-block;">
+  <img src="img/product_3.jpg" alt="">
+    <h4>Kanalisatsioon</h4>
 </div>
-<div class="card" style="text-align:center;display:inline-block;">
-  <img class="card-img-top" src="img/product_4.jpg" alt="">
-  <div class="card-block">
-    <h4 class="card-title">Ventilatsioon</h4>
-  </div>
+<div class="span2" style="text-align:center;display:inline-block;">
+  <img src="img/product_4.jpg" alt="">
+    <h4>Ventilatsioon</h4>
 </div>
-<div class="card" style="text-align:center;display:inline-block;">
-  <img class="card-img-top" src="img/product_5.jpg" alt="">
-  <div class="card-block">
-    <h4 class="card-title">Elekter</h4>
-  </div>
+<div class="span2" style="text-align:center;display:inline-block;">
+  <img src="img/product_5.jpg" alt="">
+    <h4>Elekter</h4>
+</div>
 </div>
 </div>
 
@@ -220,7 +181,6 @@
         <p class="card-text">OÜ Sanberg<br>info@sanberg.ee<br>+372 56965885 / +372 56223757</p>
       </div>
     </div>
-    <img src="img/logo2.jpg" alt="" class="logo2">
   </div>
   <div class="col-md-6">
   <h3>VÕTA MEIEGA ÜHENDUST</h3>
@@ -251,9 +211,11 @@
   </div>
 </div>
 </div>
-<div class="sub_menu" id="sub_menu" style="position:absolute; top:130px; left: 15px; z-index:9">
+<div class="sub_menu" id="sub_menu" style="position:absolute; top:130px; left: 15px; z-index:9; display:none;">
   <img src="img/submenu.jpg" alt="">
 </div>
+<img src="img/logo2.jpg" alt="" class="logo2">
+<div class="n"><p id="n"></p></div>
 </div>
 </div>
   <script type="text/javascript" src="jquery.js"></script>
