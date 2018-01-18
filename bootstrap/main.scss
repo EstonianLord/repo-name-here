@@ -9,7 +9,7 @@ html,body{
   height: 100%;
 }
 header{
-  width: 1200px;
+  width: 1000px;
   height: 60px;
   position: relative;
   margin-left: auto;
@@ -38,7 +38,7 @@ header{
   padding: 0px !important;
 }
 nav{
-  width: 1200px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   li{
@@ -46,6 +46,7 @@ nav{
     float: left;
     text-align: center;
     border-bottom: 5px solid $color_b;
+    font-size: 25.5px;
   }
   li:hover{
     border-bottom: 5px solid $color_lb;
@@ -56,7 +57,7 @@ nav{
   }
   a{
     color: #000;
-    font-size: 25.5px;
+    font-size: 21.2px;
   }
   .dropdown-item{
     float: left;
@@ -100,8 +101,7 @@ nav{
   }
 }
 .container{
-  width: 100%;
-  border-bottom: 5px solid $color_lb;
+  width: 1000px !important;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -124,14 +124,14 @@ nav{
   ol, p{
     text-align: left;
   }
-  .bo{
-    background-color: $color_o;
-    border-bottom: 5px solid $color_y;
-  }
-  .by{
-    background-color: $color_y;
-    border-bottom: 5px solid $color_o;
-  }
+}
+.bo{
+  background-color: $color_o;
+  border-bottom: 5px solid $color_y;
+}
+.by{
+  background-color: $color_y;
+  border-bottom: 5px solid $color_o;
 }
 .bottom{
   width: 1200px;
@@ -142,8 +142,8 @@ nav{
 .col-md-6{
   margin-top: 30px;
   .card{
-    width: 270px;
-    height: 100px;
+    width: 210px;
+    height: 130px;
     float: left;
     border: 0;
   }
@@ -184,4 +184,8 @@ left: 30px;
 }
 .carousel-control-prev-icon {
     color: black;
+}
+.border_btm_lb{
+    border-bottom: 5px solid $color_lb;
+    padding-bottom: 30px;
 }
