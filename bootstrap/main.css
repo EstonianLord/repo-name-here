@@ -26,7 +26,10 @@ header {
 .all {
   width: 1000px;
   margin: auto;
-  position: relative; }
+  position: relative;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 5px solid #a0e3f9; }
   .all .sub_menu {
     position: absolute;
     top: 130px;
@@ -154,7 +157,7 @@ nav {
 
 .logo2 {
   position: absolute;
-  bottom: 0px;
+  bottom: 20px;
   left: 30px; }
 
 .n {
