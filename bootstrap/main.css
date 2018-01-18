@@ -23,6 +23,16 @@ header {
     left: 0px;
     top: 0px; }
 
+.all {
+  width: 1000px;
+  margin: auto;
+  position: relative; }
+  .all .sub_menu {
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    z-index: 9; }
+
 .navbar {
   padding: 0px !important; }
 
@@ -100,11 +110,15 @@ nav {
 
 .bo {
   background-color: #f58221;
-  border-bottom: 5px solid #ffd01e; }
+  border-bottom: 5px solid #ffd01e;
+  text-align: left !important;
+  padding-top: 20px; }
 
 .by {
   background-color: #ffd01e;
-  border-bottom: 5px solid #f58221; }
+  border-bottom: 5px solid #f58221;
+  text-align: left !important;
+  padding-top: 20px; }
 
 .bottom {
   width: 1200px;
@@ -116,7 +130,7 @@ nav {
   margin-top: 30px; }
   .col-md-6 .card {
     width: 210px;
-    height: 130px;
+    height: 120px;
     float: left;
     border: 0; }
   .col-md-6 p {
@@ -155,3 +169,6 @@ nav {
 .border_btm_lb {
   border-bottom: 5px solid #a0e3f9;
   padding-bottom: 30px; }
+
+.cards h4 {
+  font-size: 18px; }
