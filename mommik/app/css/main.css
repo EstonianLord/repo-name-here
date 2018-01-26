@@ -26,4 +26,12 @@ nav {
   display: block;
 }
 
+.location {
+  position: relative;
+}
+.location .g_maps {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=main.css.map */
