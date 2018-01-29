@@ -8,18 +8,20 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		watch: {
-			css: {
-				files: '**/*.scss',
-				tasks: ['sass']
-			}
-		}
     uglify: {
     my_target: {
       files: {
         'dest/output.min.js': ['src/input1.js', 'src/input2.js']
       }
     }
+  }
+  watch: {
+    css: {
+      files: '**/*.scss',
+      tasks: ['sass']
+    },
+    scripts: {
+    files: ['**/*.js'],
   }
 	});
   grunt.loadNpmTasks('grunt-contrib-uglify');
