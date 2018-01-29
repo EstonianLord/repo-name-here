@@ -14,7 +14,15 @@ module.exports = function(grunt) {
 				tasks: ['sass']
 			}
 		}
+    uglify: {
+    my_target: {
+      files: {
+        'dest/output.min.js': ['src/input1.js', 'src/input2.js']
+      }
+    }
+  }
 	});
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.registerTask('default',['watch']);
